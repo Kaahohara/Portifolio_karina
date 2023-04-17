@@ -3,7 +3,7 @@
 This is a repository that contains examples of my work in back-end programming using technologies such as PHP, SQL, CSS, and JavaScript. This portfolio was created to showcase my web development skills and share some of the projects I have worked on.
 </p>
 <h4>Technologies Used:</h4>
-<br>
+
 PHP
 <br>
 SQL
