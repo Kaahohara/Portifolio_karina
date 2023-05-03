@@ -188,7 +188,7 @@ body {
     }
 
 }
-@media(min-width:354px) and (max-width:700px) {
+@media(min-width:454px) and (max-width:700px) {
     .icones {
         display: inline-block;
         opacity: 0;
@@ -282,7 +282,7 @@ body {
     }
 
 }
-@media (max-width:353px){
+@media (max-width:453px){
 .icones {
     display: inline-block;
     opacity: 0;
