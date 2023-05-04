@@ -134,7 +134,11 @@ body {
     }
 
     .surge {
-        display: none;
+        margin-left: 48%;
+        animation: subir 1s forwards;
+        transform: translateY(-100%);
+        margin-top: -450px;
+        left: 0;
     }
 
     .Titulo {
