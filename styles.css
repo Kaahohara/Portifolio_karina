@@ -236,7 +236,7 @@ body {
         -webkit-text-fill-color: transparent;
         margin-left: 5%;
         margin-top: 10px;
-        font-size: 90px;
+        font-size: 80px;
 
     }
 
@@ -321,13 +321,13 @@ body {
 
     .Titulo {
         animation: go-back 1s;
-        width: 100%;
+        width: 90%;
         background-image: linear-gradient(to right, #8e2de2, #4a00e0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-left: 5%;
         margin-top: 10px;
-        font-size: 90px;
+        font-size: 70px;
 
     }
 
