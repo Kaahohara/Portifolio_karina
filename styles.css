@@ -230,7 +230,7 @@ body {
 
     .Titulo {
         animation: go-back 1s;
-        width: 70%;
+        width: 90%;
         background-image: linear-gradient(to right, #8e2de2, #4a00e0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -321,7 +321,7 @@ body {
 
     .Titulo {
         animation: go-back 1s;
-        width: 70%;
+        width: 90%;
         background-image: linear-gradient(to right, #8e2de2, #4a00e0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
