@@ -1,0 +1,216 @@
+body{
+    background-color:#F5F5DC;
+}
+    a{
+        text-decoration: none;
+    }
+/* Adicione este CSS ao seu arquivo style.css */
+
+.imagem-oval {
+    margin-top: -25%;
+    margin-left: 65%;
+    width: 325px; /* Ajuste a largura conforme necessário */
+    height: 400px; /* Ajuste a altura conforme necessário */
+    border-radius: 45%; /* Torna a imagem oval */
+    position: relative;
+}
+.icon{
+    display: left;
+    margin-left: 20%;
+}
+.Imagem-flutuante{
+    margin-left: -80%;
+    display: left;
+    width: 15%;
+    position: relative;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.typing-effect {
+    margin-top: -11%;
+    font-family: 'celtica';
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #333;
+    animation: typing 2s steps(25, end), blink-caret 0.75s step-end infinite;
+}
+
+
+.pincelada{
+    margin-left: 13%;
+    margin-top: -30%;
+    z-index: 1;
+}
+  .menu{
+    font-size: 17px;
+font-family: 'Ubuntu-Light', sans-serif;
+  }
+  @font-face {
+    font-family: 'NiceHoney';
+    src: url('fonts/NiceHoney/Nice\ Honey.ttf') format('truetype'); /* Substitua pelo caminho correto para a fonte e o formato correspondente */
+    /* Outros estilos opcionais, como font-weight e font-style, podem ser adicionados aqui */
+}
+@font-face {
+    font-family: 'celtica';
+    src: url('fonts/celtica/Celtica-Book.ttf') format('truetype'); /* Substitua pelo caminho correto para a fonte e o formato correspondente */
+    /* Outros estilos opcionais, como font-weight e font-style, podem ser adicionados aqui */
+}
+.pai{
+    margin-left: 25%;
+    position: relative;
+}
+.titulo {
+    position: absolute;
+    z-index: 3;
+    margin-top: -15%;
+    font-size: 800%;
+    font-family: 'NiceHoney', sans-serif;
+    /* Outros estilos de fonte e estilos de texto podem ser definidos aqui */
+}
+.subtitulo{
+    font-size: 300%;
+}
+
+
+
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
+}
+@media  (max-width: 701px) {
+    .about{
+        margin-top: 25%;
+        text-align: justify;
+       
+    }
+    .sinopse{
+        text-align: justify;
+        font-size: 140%;
+        margin-top: 13%; 
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .capas{
+        margin-left:29%;
+        margin-top: 5%;
+    }
+    }
+        
+    .back{
+        border-radius: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color:cadetblue;
+      
+    }
+    .back-green{
+        border-radius: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color:darkcyan;
+    }
+    .back-yellow{
+        border-radius: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color:goldenrod;
+    }
+    .back-blue{
+        border-radius: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color:#084d6e;
+    }
+
+@media (min-width:701px) and (max-width: 967px) {
+ 
+    .sinopse{
+        text-align: justify;
+        font-size: 140%;
+        margin-top: -62%; 
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    .capas{
+        margin-left: 80%;
+        margin-top: 5%;
+    }
+    
+.back{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:cadetblue;
+}
+.back-green{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:darkcyan;
+}
+.back-yellow{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:goldenrod;
+}
+.back-blue{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#084d6e;
+}
+
+    }
+@media (min-width: 967px) {
+    .about{
+        margin-top: -18%;
+        text-align: justify;
+        margin-right: 26%;  
+         margin-left: 26%;
+    }
+    .sinopse{
+        text-align: justify;
+        font-size: 140%;
+        margin-top: -32%; 
+        margin-left: 40%;
+        margin-right: 10%;
+    }
+    .capas{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+.back{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:cadetblue;
+}
+.back-green{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:darkcyan;
+}
+.back-yellow{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:goldenrod;
+}
+.back-blue{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#084d6e;
+}
+
+}
